@@ -88,14 +88,18 @@ font-size: 2rem;
   height: 300px;
   margin-left: 160px;
    margin-top: 200px;
+
+}
+
+.home-img a img :hover {
+ transform: scale3d(2);
 }
 
 .home-img {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+       transform-style: preserve-3d ;   
 }
 
 .color{
@@ -113,7 +117,8 @@ font-size: 2rem;
 }
 
 .home-img a img:hover {
-    transform: scale3d(1.1) ;          
+   
+    transform: scale3d(2);       
 }
 
 .btn{
