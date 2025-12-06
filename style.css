@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+nav {
+width: 70%;
+justify-content: end;
+display: flex   ;
+border: 30%;
+gap: 25px;
+
+/* margin-left: 350px; */
+
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    padding: 1rem 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(1);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 500;
+    display: flex;
+    border-bottom: 2px solid #314ef5; 
+}
+
+.logo{ 
+    font-size: 3rem;
+    color: #314ef5;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    
+    border-radius: 40%;
+    left: 100%;
+}
+
+.active {
+font-size: 2rem;
+    color: #314ef5;
+    text-shadow:#d8d9dd;    
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    right: 100%;
+    padding: 5px;
+    text-decoration: underline;
+}
+.unactive {
+font-size: 2rem;
+    color: #8f9fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+    right: 100%;
+    padding: 5px;
+}
+
+.home-img a img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: 160px;
+   margin-top: 200px;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.home-content {
+    margin-top: 210px;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home-img a img:hover {
+    transform: scale3d(1.1) ;          
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #314ef5;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #314ef5;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #314ef5;
+    color: black;
+    box-shadow: 0 0 25px #314ef5;
+}
+
+.unactive:hover{
+    transform: scale3d(1.03);
+    background-color: #314ef5;
+    color: black;
+    box-shadow: 0 0 25px #314ef5;
+    border-radius: 4rem;
+}
+
+.fontjaa {
+     font-size: 4rem;
+}
+
+svg:hover {
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    color: #314ef5;
+    font-weight: 600;
+    border: 2px solid #314ef5;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    margin: 1; 
+}
