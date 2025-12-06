@@ -57,7 +57,7 @@ header {
     cursor: pointer;
     transition: 0.5s ease;
 
-    border-radius: 40%;
+    border-radius: 100%;
     left: 100%;
 }
 
@@ -84,9 +84,8 @@ header {
 }
 
 .home-img a img {
-    border-radius: 50%;
+    border-radius: 60%;
     width: 300px;
-    height: 300px;
     margin-left: 160px;
     margin-top: 200px;
 }
